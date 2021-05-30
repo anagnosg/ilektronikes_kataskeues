@@ -11,8 +11,7 @@ void loop() {
   int buttonValue = digitalRead(BUTTON_PIN);
   if(buttonValue==HIGH)
   {
-    Serial.println("High");
-    digitalWrite(LASER_PIN,HIGH);
+      digitalWrite(LASER_PIN,HIGH);
   }
   else
   {
